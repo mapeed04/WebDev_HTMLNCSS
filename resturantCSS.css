@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+}
+
+/*delivery portion*/
+/*box1*/
+.nav-address{
+	width: 60px;
+	height:50px;
+	margin-bottom: 7px;
+	margin-top: 5px;
+}
+.add1{
+	color: #ffffffd4; /*add 1 for deliver, add2 for india and icon*/
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 6px;
+	margin-left: 3px;
+}
+.add2{
+	color: #ffffffd4;
+	font-size: 14 px;
+}
+.add-icon {
+	display: flex; /*to bring the icon and india in the same line*/
+	align-item: center;
+}
+
+/*navbar portion*/
+
+.navbar{
+    background: rgb(167, 39, 0);
+    color:aliceblue;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex; /*keep the items in the same line accordinto the code alignment*/
+    justify-content: center;/*postion center*/
+    width:600px;
+    height:40px;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 4px;
+}
+.nav-search:hover{
+	border: 3px solid white;
+}
+.search-input{
+    width:85%;
+    border: #ffffffd4;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom:4px;
+}
+.search-icon{ /*to bring the items in center and increase the size of the orange portion*/
+	width:40px;
+	display:flex; /*to bring the icon in the same line*/
+	justify-content: center;
+    align-items: center;
+	color: #0f1111;
+    padding-right: 12px;
+}
+
+.border{
+	border: 2px solid transparent;
+}
+
+.border:hover{
+	border: 2px solid white; /*for white border */
+}
+/*box3*/
+span{
+	font-size: 12px;
+}
+.nav-second{
+	font-size: 14px;
+	font-weight:700;
+}
+
+/*cart logo*/
+.nav-cart i { /*usinf class selector, to increase the size of the icon particularly*/
+	font-size: 30px;
+}
+.nav-cart{
+	font-size:14px;
+	font-weight:700;
+}
+
+/*Main body section*/
+.hero-section{
+	background-image: url("images/bgmrestt.jpg");
+	background-size: cover;
+    opacity: 0.95;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items:flex-end;
+    flex-wrap: wrap;
+}
+.hero-message2{
+	background-color: white;
+	color: black;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	width:80%;
+	margin-bottom: 25px;
+	border-radius: 15px;
+	/*bottom:25px;
+	position: relative;*/
+}
+.hero-message1{
+    background-color: rgb(167, 39, 0);
+    opacity: 0.75;
+	color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 100px; 
+	width:80%;
+	margin-bottom: 25px;
+}
+.hero-message2 a{
+	color: #007185;
+}
+.hero-message2:hover{
+	border: 2px solid rgb(203, 69, 20);
+}
+/*shop-section*/
+.shop-section{
+	display: flex;
+	flex-wrap: wrap; /*to keep 4 items in a single row*/
+	justify-content: space-evenly;
+	background-color: rgb(24, 12, 3);
+}
+.box{
+	/*border: 2px solid black;*/
+	height: 300px;
+	width: 23%;
+	background-color: white;
+	padding: 20px 0px 55px;
+	margin-top: 15px;
+	border-radius: 15px;
+	margin-bottom: 5px;;
+}
+.box:hover{
+	border: 2px solid rgb(198, 64, 6);
+}
+.box-image{
+	height: 85%;
+	background-size: cover;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.box-content{
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.box-content p{
+	color: #222f3d;
+	font-size: 12px;
+}
+.foot-panel1{
+	background-color: rgb(167, 39, 0);
+	color: white;
+	height:50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+.foot-panel2{
+	background-color: rgb(146, 34, 0);
+	height: 400px;
+	color: #dddddd;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+ul{
+	margin-top: 20px;
+}
+ul a{
+	display: block;
+	font-size: 14px;
+	margin-top: 10px;
+}
+ul p{
+	font-size: 16px;
+	font-weight:700;
+	margin: 6px 0px 14px;
+}
+
+.foot-panel4{
+	background-color:rgb(86, 21, 1);
+	color:white;
+	height: 100px;
+	font-size: 10px;
+	text-align: center;
+}
+.pages{
+	padding: 25px;
+}
+.copyright{
+	padding-top: 5px;
+}
